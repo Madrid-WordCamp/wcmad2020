@@ -1,1 +1,1 @@
-# wcmad2020
+# WordCamp Madrid 2020
