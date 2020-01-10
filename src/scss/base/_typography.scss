@@ -8,3 +8,15 @@ $primary-font-family: "Inter var", -apple-system, BlinkMacSystemFont,
 .entry-content dt {
   font-family: $primary-font-family;
 }
+
+@mixin headingL($display: block, $pos: absolute, $content: "") {
+  font-size: 3.5rem;
+}
+
+@mixin headingM($display: block, $pos: absolute, $content: "") {
+  font-size: 2.5rem;
+}
+
+@mixin paragraph($display: block, $pos: absolute, $content: "") {
+  font-size: 2.5rem;
+}

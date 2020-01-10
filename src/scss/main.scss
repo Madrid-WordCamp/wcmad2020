@@ -1,9 +1,9 @@
-@import "base/base";
-@import "base/typography";
-
 @import "utils/helpers";
 @import "utils/mixins";
 @import "utils/variables";
+
+@import "base/base";
+@import "base/typography";
 
 @import "layout/grid";
 @import "layout/navigation";

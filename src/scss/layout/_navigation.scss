@@ -1,0 +1,250 @@
+//==============================================================================
+// Header
+//==============================================================================
+#site-header {
+  position: sticky;
+  top: 0;
+  background: transparent;
+}
+
+//==============================================================================
+// Logo
+//==============================================================================
+a.custom-logo-link {
+  position: relative;
+  padding: $xl;
+
+  &:before {
+    @include fullPseudo;
+    background: $purple;
+    transform: skew(3deg, 5deg) rotate(40deg);
+  }
+
+  @include large-breakpoint {
+    &:before {
+      z-index: -1;
+    }
+  }
+
+  img {
+    position: relative;
+  }
+}
+
+//==============================================================================
+// Menu
+//==============================================================================
+
+// Primary meny ===============================================================
+$menuGeometries: (
+  (1, $orange, -5deg),
+  (2, $turquoise, 7deg),
+  (3, $yellow, 4deg),
+  (4, $blue, 17deg),
+  (5, $green, -8deg)
+);
+
+.primary-menu > li {
+  position: relative;
+  margin: 0;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+
+  &.menu-item-has-children {
+    padding-right: $xl;
+
+    .icon {
+      margin-right: $l;
+    }
+  }
+
+  a {
+    padding: $xl $xxl;
+  }
+
+  &:before {
+    @include fullPseudo;
+    z-index: -1;
+  }
+
+  @each $index, $color, $rotation in $menuGeometries {
+    &:nth-child(#{$index}):before {
+      @include rotatedGeometry($color, $rotation);
+    }
+  }
+}
+
+// Arrow
+.primary-menu ul::after {
+  display: none;
+}
+
+// Sub menu ====================================================================
+$subMenuGeometries: (
+  (1, $gray, 4deg),
+  (2, $blue, -3deg),
+  (3, $green, 2deg),
+  (4, $pink, -5deg),
+  (5, $orange, -3deg)
+);
+
+.primary-menu li.menu-item-has-children > ul {
+  background: none;
+  border-radius: 0;
+  padding: $xl;
+  width: 25rem;
+  margin-right: -5rem;
+
+  &:before {
+    @include fullPseudo;
+    @include rotatedGeometry($purple, -5deg);
+    z-index: -2;
+  }
+
+  li {
+    &:before {
+      @include fullPseudo;
+      z-index: -1;
+    }
+  }
+
+  @each $index, $color, $rotation in $subMenuGeometries {
+    li:nth-child(#{$index}):before {
+      @include rotatedGeometry($color, $rotation);
+    }
+  }
+}
+
+// Mobile menu =================================================================
+$mobileMenuGeometries: (
+  (1, $orange, 2deg),
+  (2, $turquoise, -1deg),
+  (3, $pink, 1deg),
+  (4, $blue, -2deg),
+  (5, $green, 1deg)
+);
+
+$mobileSubMenuGeometries: (
+  (1, $blue, -1.5deg),
+  (2, $green, 1deg),
+  (3, $pink, -2.5deg),
+  (4, $orange, -1.5deg),
+  (5, $gray, 2deg)
+);
+
+.toggle-inner {
+  position: relative;
+
+  &:after {
+    @include pseudo;
+    left: -1.8rem;
+    right: 0;
+    top: -0.8rem;
+    bottom: 0;
+    width: 6.5rem;
+    height: 6rem;
+    z-index: -2;
+    @include rotatedGeometry($yellow, 12deg);
+  }
+}
+
+.menu-modal {
+  .menu-top {
+    display: flex;
+    flex-direction: column;
+
+    .close-nav-toggle {
+      align-self: flex-end;
+      width: fit-content;
+      z-index: 1;
+
+      &:before {
+        @include pseudo;
+        top: 7%;
+        left: -12%;
+        right: 0;
+        bottom: 0;
+        width: 120%;
+        height: 90%;
+        @include rotatedGeometry($yellow, 7deg);
+        z-index: -2;
+      }
+    }
+  }
+
+  .modal-menu > li.menu-item {
+    border: none;
+    z-index: 1;
+    margin: $l auto;
+    transition-duration: 0 !important;
+    transition-delay: 0ms !important;
+
+    &:before {
+      @include fullPseudo;
+      z-index: -1;
+    }
+
+    @each $index, $color, $rotation in $mobileMenuGeometries {
+      &:nth-child(#{$index}):before {
+        @include rotatedGeometry($color, $rotation);
+      }
+    }
+  }
+
+  li > .ancestor-wrapper > a {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .sub-menu {
+    background: $white;
+    z-index: -1;
+
+    .ancestor-wrapper > a {
+      font-size: 2rem;
+    }
+
+    .menu-item {
+      border: none;
+
+      &:before {
+        @include fullPseudo;
+        z-index: -1;
+      }
+
+      @each $index, $color, $rotation in $mobileSubMenuGeometries {
+        &:nth-child(#{$index}):before {
+          @include rotatedGeometry($color, $rotation);
+        }
+      }
+    }
+  }
+
+  // Quitar el borde del botón para desplegar menú
+  button.toggle.sub-menu-toggle.fill-children-current-color,
+  .menu-modal nav * {
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    height: 5rem;
+  }
+}
+
+// WordPress selector ==========================================================
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li > .icon,
+.modal-menu a,
+.footer-menu a,
+.footer-widgets a,
+#site-footer .wp-block-button.is-style-outline,
+.wp-block-pullquote:before,
+.singular:not(.overlay-header) .entry-header a,
+.archive-header a,
+.header-footer-group .color-accent,
+.header-footer-group .color-accent-hover:hover {
+  color: $primaryTextColor;
+}
