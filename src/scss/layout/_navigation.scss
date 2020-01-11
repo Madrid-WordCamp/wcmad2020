@@ -218,6 +218,11 @@ $mobileSubMenuGeometries: (
     transition-duration: 0 !important;
     transition-delay: 0ms !important;
 
+    button:focus,
+    button:active {
+      outline: none;
+    }
+
     // Dropdown arrow
     .svg-icon polygon {
       fill: $white;
