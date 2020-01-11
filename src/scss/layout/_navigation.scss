@@ -5,6 +5,11 @@
   position: sticky;
   top: 0;
   background: transparent;
+
+  button:focus,
+  button:active {
+    outline: none;
+  }
 }
 
 //==============================================================================
@@ -50,6 +55,11 @@ $menuGeometries: (
   width: fit-content;
   margin: 0 auto;
   text-align: center;
+
+  // Because blue background
+  &:nth-child(4) {
+    color: $white;
+  }
 
   &.menu-item-has-children {
     padding-right: $xl;
@@ -133,8 +143,13 @@ $mobileSubMenuGeometries: (
   (5, $gray, 2deg)
 );
 
+// Show menu button
 .toggle-inner {
   position: relative;
+
+  path {
+    fill: $primaryTextColor;
+  }
 
   &:after {
     @include pseudo;
@@ -149,15 +164,33 @@ $mobileSubMenuGeometries: (
   }
 }
 
+.menu-modal-inner {
+  background: $purple;
+}
+
 .menu-modal {
   .menu-top {
     display: flex;
     flex-direction: column;
 
+    // Hide menu button
     .close-nav-toggle {
       align-self: flex-end;
       width: fit-content;
       z-index: 1;
+
+      &:focus,
+      &:active {
+        outline: none;
+      }
+
+      .toggle-text {
+        color: $primaryTextColor;
+      }
+
+      .svg-icon polygon {
+        fill: $primaryTextColor;
+      }
 
       &:before {
         @include pseudo;
@@ -173,6 +206,11 @@ $mobileSubMenuGeometries: (
     }
   }
 
+  // Items that have children (submenu)
+  .modal-menu > li.menu-item.menu-item-has-children .ancestor-wrapper:before {
+    height: 8rem;
+  }
+
   .modal-menu > li.menu-item {
     border: none;
     z-index: 1;
@@ -180,13 +218,28 @@ $mobileSubMenuGeometries: (
     transition-duration: 0 !important;
     transition-delay: 0ms !important;
 
-    &:before {
+    // Dropdown arrow
+    .svg-icon polygon {
+      fill: $white;
+    }
+
+    a {
+      color: $white;
+    }
+
+    > .ancestor-wrapper:before {
       @include fullPseudo;
+      left: 5vw;
+      width: 90vw;
       z-index: -1;
+
+      @include medium-breakpoint {
+        left: 0;
+      }
     }
 
     @each $index, $color, $rotation in $mobileMenuGeometries {
-      &:nth-child(#{$index}):before {
+      &:nth-child(#{$index}) > .ancestor-wrapper:before {
         @include rotatedGeometry($color, $rotation);
       }
     }
@@ -198,7 +251,7 @@ $mobileSubMenuGeometries: (
   }
 
   .sub-menu {
-    background: $white;
+    background: $purple;
     z-index: -1;
 
     .ancestor-wrapper > a {
@@ -210,7 +263,13 @@ $mobileSubMenuGeometries: (
 
       &:before {
         @include fullPseudo;
+        left: 10vw;
+        width: 80vw;
         z-index: -1;
+
+        @include medium-breakpoint {
+          left: 5vw;
+        }
       }
 
       @each $index, $color, $rotation in $mobileSubMenuGeometries {
@@ -226,7 +285,7 @@ $mobileSubMenuGeometries: (
   .menu-modal nav * {
     border: none;
     position: absolute;
-    right: 0;
+    right: 2rem;
     top: 0;
     bottom: 0;
     height: fit-content;
