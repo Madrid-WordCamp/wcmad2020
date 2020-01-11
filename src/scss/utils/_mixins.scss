@@ -47,10 +47,6 @@
   transform: rotate($rotation);
 }
 
-@function randomElement($elements...) {
-  @return nth($elements, random(length($elements)));
-}
-
 @mixin responsiveWidth {
   max-width: 120rem;
   width: calc(100% - 4rem);

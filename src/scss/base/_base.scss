@@ -2,6 +2,17 @@
 body {
   overscroll-behavior: none;
   background: $white;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.faux-heading {
+  letter-spacing: -0.02em;
 }
 
 h2.widget-title.subheading {

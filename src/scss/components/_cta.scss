@@ -1,14 +1,77 @@
 .footer-widgets .widget:nth-child(1) {
-  background: $purple;
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 9rem;
+
+  &:before {
+    @include fullPseudo;
+    z-index: -1;
+    @include rotatedGeometry($purple, -2deg);
+    left: -20%;
+    width: 140%;
+    background: $purple;
+  }
+
+  &:after {
+    @include fullPseudo;
+    z-index: -1;
+    left: -20%;
+    width: 140%;
+    background-image: $shapes;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: center;
+  }
 
   > div {
-    max-width: 70rem;
-    margin: 0 auto;
-    padding: $xl l;
+    padding: $xxl 0;
   }
 
   h2 {
     color: $white;
+    max-width: 50rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1em !important;
+    margin-bottom: $xxl !important;
+  }
+
+  form {
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+
+    p {
+      margin-bottom: 1em !important;
+    }
+
+    #subscribe-email {
+      flex-grow: 1;
+      margin-right: $l;
+
+      input {
+        height: 100%;
+      }
+    }
+
+    #subscribe-submit button {
+      position: relative;
+      z-index: 1;
+      background: transparent;
+
+      &:before {
+        @include fullPseudo;
+        top: -0.5rem;
+        left: -0.5rem;
+        width: calc(100% + 1rem);
+        height: calc(100% + 1rem);
+        background: $orange;
+        clip-path: $buttonPath1;
+        z-index: -1;
+      }
+    }
   }
 }

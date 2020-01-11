@@ -19,10 +19,43 @@
 .footer-widgets .widget:nth-child(3),
 footer#site-footer {
   background: $purple;
+
+  a {
+    color: $white;
+  }
+
+  .to-the-top {
+    display: none;
+  }
+
+  .footer-credits {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 // Logo
 .footer-widgets .widget:nth-child(3) {
+  position: relative;
+  z-index: 1;
+  margin-top: 15rem;
+
+  &:before {
+    @include fullPseudo;
+    @include rotatedGeometry($purple, -2deg);
+    z-index: -1;
+    width: 150%;
+    left: -25%;
+    top: -50%;
+  }
+
+  .widget-content {
+    text-align: center;
+
+    img {
+      display: inline-block;
+    }
+  }
 }
 
 footer#site-footer {
@@ -31,4 +64,11 @@ footer#site-footer {
 
 .footer-widgets.column-one.grid-item {
   width: 100%;
+}
+
+// Remove bottom border
+aside.footer-widgets-outer-wrapper {
+  border: none;
+  position: relative;
+  bottom: -2px;
 }

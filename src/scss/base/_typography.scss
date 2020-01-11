@@ -5,8 +5,9 @@ $primary-font-family: "Inter var", -apple-system, BlinkMacSystemFont,
 .entry-content ol,
 .entry-content ul,
 .entry-content dl,
-.entry-content dt {
-  font-family: $primary-font-family;
+.entry-content dt,
+.entry-content {
+  font-family: $primary-font-family !important;
 }
 
 @mixin headingL($display: block, $pos: absolute, $content: "") {

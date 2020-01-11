@@ -2,10 +2,11 @@
 // Header
 //==============================================================================
 #site-header {
-  position: sticky;
-  top: 0;
+  // position: sticky;
+  // top: 0;
   background: transparent;
-  background: linear-gradient($white 70%, transparent);
+  z-index: 99;
+  // background: linear-gradient($white 70%, transparent);
 
   button:focus,
   button:active {
