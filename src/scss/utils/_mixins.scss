@@ -19,6 +19,12 @@
   }
 }
 
+@mixin big-breakpoint {
+  @media (min-width: #{$bigDesktop}) {
+    @content;
+  }
+}
+
 // Use with :before and :after
 @mixin pseudo($display: block, $pos: absolute, $content: "") {
   content: $content;
@@ -43,4 +49,19 @@
 
 @function randomElement($elements...) {
   @return nth($elements, random(length($elements)));
+}
+
+@mixin responsiveWidth {
+  max-width: 120rem;
+  width: calc(100% - 4rem);
+
+  @include large-breakpoint {
+    margin-left: -4rem;
+    width: calc(100% + 4rem);
+  }
+
+  @include big-breakpoint {
+    margin-left: -6rem;
+    width: calc(100% + 6rem);
+  }
 }

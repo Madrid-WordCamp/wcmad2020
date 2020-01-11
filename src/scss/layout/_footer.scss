@@ -1,4 +1,34 @@
 .footer-inner.section-inner {
   margin: 0;
   width: 100vw;
+  max-width: 100vw;
+
+  h2.widget-title.subheading {
+    margin: 4rem;
+
+    @include big-breakpoint {
+      margin: 6rem;
+    }
+  }
+}
+
+.footer-widgets-outer-wrapper {
+  padding-bottom: 0;
+}
+
+.footer-widgets .widget:nth-child(3),
+footer#site-footer {
+  background: $purple;
+}
+
+// Logo
+.footer-widgets .widget:nth-child(3) {
+}
+
+footer#site-footer {
+  color: $white;
+}
+
+.footer-widgets.column-one.grid-item {
+  width: 100%;
 }

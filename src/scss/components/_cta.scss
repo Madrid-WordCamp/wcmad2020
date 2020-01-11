@@ -1,0 +1,14 @@
+.footer-widgets .widget:nth-child(1) {
+  background: $purple;
+  margin: 0 auto;
+
+  > div {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: $xl l;
+  }
+
+  h2 {
+    color: $white;
+  }
+}
