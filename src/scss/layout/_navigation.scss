@@ -5,6 +5,7 @@
   position: sticky;
   top: 0;
   background: transparent;
+  background: linear-gradient($white 70%, transparent);
 
   button:focus,
   button:active {
@@ -57,8 +58,8 @@ $menuGeometries: (
   text-align: center;
 
   // Because blue background
-  &:nth-child(4) {
-    color: $white;
+  &:nth-child(4) a {
+    color: $white !important;
   }
 
   &.menu-item-has-children {

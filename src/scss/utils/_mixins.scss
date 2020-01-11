@@ -40,3 +40,7 @@
   background: $color;
   transform: rotate($rotation);
 }
+
+@function randomElement($elements...) {
+  @return nth($elements, random(length($elements)));
+}
