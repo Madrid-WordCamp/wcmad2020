@@ -1,0 +1,233 @@
+.post-inner.thin {
+  padding-top: 4rem;
+}
+
+.hero {
+  padding-top: 0;
+  height: 80vh;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+
+    @include medium-breakpoint {
+      font-size: 3rem;
+    }
+
+    @include medium-breakpoint {
+      font-size: 3.3rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* 
+  <div class="floating-icons">
+    <span class="icon"></span>
+    <span class="icon"></span>
+    <span class="icon"></span>
+    <span class="icon"></span>
+    <span class="icon"></span>
+    <span class="icon"></span>
+  </div>
+  */
+
+  // .floating-icons {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   z-index: -1;
+
+  //   span {
+  //     position: absolute;
+  //     display: block;
+  //   }
+  // }
+
+  // $color-list: #f5e548, #81c0b7, #91c081, #cb589d, #5666a2, #d24941;
+  // $width-list: 11rem, 4rem, 3rem, 5rem, 2rem, 4rem;
+
+  // .floating-icons span:nth-child(1) {
+  //   background: nth($color-list, 1);
+  //   height: nth($width-list, 1);
+  //   width: nth($width-list, 1);
+  //   // animation: move1 40s infinite linear;
+  //   top: 87vh;
+  //   left: 31vw;
+  // }
+
+  // @keyframes move1 {
+  //   0% {
+  //     top: 87vh;
+  //     left: 31vw;
+  //   }
+  //   25% {
+  //     top: 4vh;
+  //     left: 49vw;
+  //   }
+  //   50% {
+  //     top: 26vh;
+  //     left: 93vw;
+  //   }
+
+  //   75% {
+  //     top: 78vh;
+  //     left: 0vw;
+  //   }
+  //   100% {
+  //     top: 87vh;
+  //     left: 31vw;
+  //   }
+  // }
+
+  // .floating-icons span:nth-child(2) {
+  //   background: nth($color-list, 2);
+  //   height: nth($width-list, 2);
+  //   width: nth($width-list, 2);
+  // animation: move2 35s infinite linear;
+  // top: 81vh;
+  // left: 13vw;
+  // }
+  // @keyframes move2 {
+  //   0% {
+  //     top: 81vh;
+  //     left: 13vw;
+  //   }
+  //   25% {
+  //     top: 0vh;
+  //     left: 35vw;
+  //   }
+  //   50% {
+  //     top: 95vh;
+  //     left: 65vw;
+  //   }
+
+  //   75% {
+  //     top: 55vh;
+  //     left: 98vw;
+  //   }
+  //   100% {
+  //     top: 81vh;
+  //     left: 13vw;
+  //   }
+  // }
+
+  //   @keyframes move2 {
+  //     0% {
+  //       transform: rotate(10deg) translate(500px, 0.1px) rotate(-10deg);
+  //     }
+  //     100% {
+  //       transform: rotate(20deg) translate(500px, 0.1px) rotate(-20deg);
+  //     }
+  //   }
+
+  // .floating-icons span:nth-child(3) {
+  //   background: nth($color-list, 3);
+  //   height: nth($width-list, 3);
+  //   width: nth($width-list, 3);
+  // animation: move3 45s infinite linear;
+  // top: 97vh;
+  // left: 31vw;
+  // }
+
+  // @keyframes move3 {
+  //   0% {
+  //     top: 97vh;
+  //     left: 31vw;
+  //   }
+  //   33% {
+  //     top: 44vh;
+  //     left: 98vw;
+  //   }
+  //   66% {
+  //     top: 4vh;
+  //     left: 45vw;
+  //   }
+  //   100% {
+  //     top: 97vh;
+  //     left: 31vw;
+  //   }
+  // }
+
+  // .floating-icons span:nth-child(4) {
+  //   background: nth($color-list, 4);
+  //   height: nth($width-list, 4);
+  //   width: nth($width-list, 4);
+  // animation: move4 20s infinite linear;
+  // }
+
+  //   @keyframes move4 {
+  //     0% {
+  //       transform: rotate(10deg) translate(500px, 0.1px) rotate(-10deg);
+  //     }
+  //     100% {
+  //       transform: rotate(20deg) translate(500px, 0.1px) rotate(-20deg);
+  //     }
+  //   }
+
+  // .floating-icons span:nth-child(5) {
+  //   background: nth($color-list, 5);
+  //   height: nth($width-list, 5);
+  //   width: nth($width-list, 5);
+  // animation: move5 20s infinite linear;
+  // }
+
+  //   @keyframes move5 {
+  //     0% {
+  //       transform: rotate(10deg) translate(500px, 0.1px) rotate(-10deg);
+  //     }
+  //     100% {
+  //       transform: rotate(20deg) translate(500px, 0.1px) rotate(-20deg);
+  //     }
+  //   }
+
+  // .floating-icons span:nth-child(6) {
+  //   background: nth($color-list, 6);
+  //   height: nth($width-list, 6);
+  //   width: nth($width-list, 6);
+  // animation: move6 20s infinite linear;
+  // }
+
+  //   @keyframes move6 {
+  //     0% {
+  //       transform: rotate(10deg) translate(500px, 0.1px) rotate(-10deg);
+  //     }
+  //     100% {
+  //       transform: rotate(20deg) translate(500px, 0.1px) rotate(-20deg);
+  //     }
+  //   }
+
+  //   @for $i from 1 through 6 {
+  //     $a: #{$i * 90};
+  //     $b: #{$i * 90+360};
+
+  //     .floating-icons span:nth-child(#{$i}) {
+  //       animation: move#{$i} 20s infinite linear;
+  //       background: nth($color-list, $i);
+  //       height: nth($width-list, $i);
+  //       width: nth($width-list, $i);
+  //     }
+
+  //     @keyframes move#{$i} {
+  //       from {
+  //         transform: rotate(#{$a}deg) translate(500px, 0.1px) rotate(-#{$a}deg);
+  //       }
+  //       to {
+  //         transform: rotate(#{$b}deg) translate(500px, 0.1px) rotate(-#{$b}deg);
+  //       }
+  //     }
+  //   }
+}

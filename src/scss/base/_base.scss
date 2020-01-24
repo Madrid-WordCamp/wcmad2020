@@ -18,3 +18,20 @@ h6,
 h2.widget-title.subheading {
   text-align: center;
 }
+
+.color-accent,
+.color-accent-hover:hover,
+.color-accent-hover:focus,
+:root .has-accent-color,
+.has-drop-cap:not(:focus):first-letter,
+.wp-block-button.is-style-outline,
+a,
+body,
+.entry-title a,
+:root .has-primary-color {
+  color: $primaryTextColor;
+}
+
+a {
+  font-weight: 600;
+}

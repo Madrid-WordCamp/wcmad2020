@@ -1,0 +1,203 @@
+body.home {
+  .entry-header {
+    display: none;
+  }
+}
+
+//==============================================================================
+// Primer elemento (columnas)
+//==============================================================================
+.wcmad-columns {
+  h2 span {
+    font-size: 0.9em;
+  }
+
+  figure {
+    position: relative;
+
+    &:after {
+      @include fullPseudo;
+      z-index: -1;
+      background: $purple;
+      transform: rotate(17deg);
+      width: 90%;
+      left: 5%;
+
+      @media (max-width: 600px) {
+        transform: rotate(9deg);
+      }
+    }
+  }
+}
+
+//==============================================================================
+// Llamadas
+//==============================================================================
+.calls {
+  div {
+    position: relative;
+    margin: $xl auto;
+    padding: $xxl $xl;
+    width: fit-content;
+
+    &:after {
+      @include fullPseudo;
+      z-index: -1;
+      width: 110%;
+      height: 110%;
+    }
+
+    img {
+      position: absolute;
+      height: 6rem;
+      z-index: 5;
+      right: 5rem;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    a {
+      color: $white;
+      display: inline-block;
+      padding: $xl $xxl;
+      font-size: 1.2em;
+      text-decoration: none;
+      position: relative;
+      z-index: 2;
+      padding-left: 5rem;
+      max-width: 12em;
+
+      &:after {
+        z-index: 1;
+        @include fullPseudo;
+        background: $purple;
+        z-index: -1;
+        width: 110%;
+        height: 110%;
+      }
+    }
+  }
+
+  .calls-sponsors {
+    &:after {
+      background: $blue;
+      clip-path: polygon(6.71% 16.45%, 84.43% 9.62%, 69.32% 86.28%, 9px 71.21%);
+    }
+
+    a:after {
+      clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
+    }
+
+    img {
+      margin-top: 3rem;
+    }
+  }
+
+  .calls-speakers {
+    &:after {
+      background: $pink;
+      clip-path: polygon(16% 27.32%, 91.6% 10.66%, 70.38% 82.66%, 9px 81.56%);
+    }
+
+    a:after {
+      clip-path: polygon(
+        7.91% 11.73%,
+        77.19% 12.85%,
+        89.97% 71.69%,
+        16px 85.9%
+      );
+    }
+  }
+
+  .calls-volunteers {
+    &:after {
+      background: $green;
+      clip-path: polygon(
+        11.49% 14.38%,
+        81.77% 15.32%,
+        88.17% 79.55%,
+        30px 84.15%
+      );
+    }
+
+    a:after {
+      clip-path: polygon(
+        7.91% 12.52%,
+        92.82% 15.21%,
+        76.14% 70.9%,
+        19px 92.19%
+      );
+    }
+
+    img {
+      height: 10rem;
+    }
+  }
+
+  @include large-breakpoint {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+//==============================================================================
+// Latest posts
+//==============================================================================
+.wp-block-latest-posts {
+  li {
+    padding: $xxl;
+    margin: $l 0;
+    color: $white !important;
+
+    &:nth-child(1) {
+      background: $blue;
+      clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+    }
+    &:nth-child(2) {
+      background: $pink;
+      clip-path: polygon(2.45% 4.87%, 94.48% 4.86%, 96% 95%, 3px 96.06%);
+    }
+    &:nth-child(3) {
+      background: $gray;
+      clip-path: polygon(2.97% 4.87%, 95.86% 8.6%, 96% 93.13%, 0px 97%);
+    }
+    &:nth-child(4) {
+      background: $green;
+      clip-path: polygon(1.07% 3%, 95.52% 3.92%, 96% 95%, 6px 95.13%);
+    }
+    &:nth-child(5) {
+      background: $red;
+      clip-path: polygon(1.59% 6.74%, 93.62% 10%, 96% 95%, 13px 97%);
+    }
+
+    &:not(:nth-child(1)) {
+      .wp-block-latest-posts__post-excerpt {
+        display: none;
+      }
+    }
+
+    a {
+      color: $white;
+    }
+
+    > a {
+      font-size: 1.4em;
+    }
+  }
+
+  .wp-block-latest-posts__post-excerpt,
+  .wp-block-latest-posts__post-excerpt a {
+    font-weight: 200;
+  }
+
+  @include medium-breakpoint {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    li:nth-child(1) {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+  }
+}

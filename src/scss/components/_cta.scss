@@ -32,7 +32,7 @@
 
   h2 {
     color: $white;
-    max-width: 50rem;
+    max-width: 60rem;
     margin-left: auto !important;
     margin-right: auto !important;
     margin-top: 1em !important;
@@ -71,6 +71,20 @@
         background: $orange;
         clip-path: $buttonPath1;
         z-index: -1;
+      }
+    }
+  }
+
+  // FORM
+  @media (max-width: 700px) {
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #subscribe-email {
+        width: 28rem;
+        margin-right: 0;
       }
     }
   }

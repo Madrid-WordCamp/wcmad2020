@@ -21,3 +21,12 @@ $primary-font-family: "Inter var", -apple-system, BlinkMacSystemFont,
 @mixin paragraph($display: block, $pos: absolute, $content: "") {
   font-size: 2.5rem;
 }
+
+h3,
+.heading-size-3 {
+  font-size: 3.1rem;
+
+  @include medium-breakpoint {
+    font-size: 5rem;
+  }
+}

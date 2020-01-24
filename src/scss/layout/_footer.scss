@@ -54,6 +54,7 @@ footer#site-footer {
 
     img {
       display: inline-block;
+      margin-top: $xxl;
     }
   }
 }
@@ -71,4 +72,9 @@ aside.footer-widgets-outer-wrapper {
   border: none;
   position: relative;
   bottom: -2px;
+}
+.footer-widgets-wrapper {
+  overflow-x: hidden;
+  max-width: calc(100vw + 4rem);
+  padding-top: 3rem;
 }

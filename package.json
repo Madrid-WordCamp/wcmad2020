@@ -6,11 +6,23 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "sass": "node-sass --include-path scss src/scss/main.scss dist/css/main.css --output-style compressed"
-  },
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "autoprefixer": "^9.5.1",
+    "browserslist": "^4.5.4",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "postcss-cli": "^6.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "rimraf scss",
+    "compile": "node-sass --output-style=expanded --source-map=true src/scss/main.scss dist/css/main.css",
+    "prefix": "postcss dist/css/main.css --use=autoprefixer --map=false --output=dist/css/main.css",
+    "minify": "cleancss --level=1 --source-map --source-map-inline-sources --output dist/css/main.min.css dist/css/main.css",
+    "dev": "npm run compile -- --watch",
+    "build": "npm run clean && npm run compile && npm run prefix && npm run minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
