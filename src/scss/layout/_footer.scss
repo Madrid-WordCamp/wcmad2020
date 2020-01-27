@@ -55,7 +55,7 @@ footer#site-footer {
     img {
       display: inline-block;
       margin-top: $xxl;
-      max-width: 40rem;
+      max-width: 40rem !important;
     }
   }
 }
