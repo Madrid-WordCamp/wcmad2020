@@ -8,6 +8,11 @@ body.home {
 // Primer elemento (columnas)
 //==============================================================================
 .wcmad-columns {
+  // Ñapa para tener un H1 en la página y que parezca un H2 ¯\(°_o)/¯
+  h1 {
+    font-size: 3.2rem;
+  }
+
   h2 span {
     font-size: 0.9em;
   }
@@ -75,6 +80,10 @@ body.home {
         z-index: -1;
         width: 110%;
         height: 110%;
+      }
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
@@ -150,7 +159,15 @@ body.home {
     margin: $l 0;
     color: $white !important;
 
-    // TODO: mejorar esto con un array
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wp-block-latest-posts__post-excerpt a {
+      font-weight: 500;
+    }
+
+    // (☞ﾟヮﾟ)☞ TODO: mejorar esto con un array
     &:nth-child(1) {
       background: $blue;
       clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -174,6 +191,9 @@ body.home {
 
     // Only shows excerpt on first post
     &:not(:nth-child(1)) {
+      display: flex;
+      align-items: center;
+
       .wp-block-latest-posts__post-excerpt {
         display: none;
       }
