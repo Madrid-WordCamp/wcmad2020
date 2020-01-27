@@ -169,6 +169,11 @@ $mobileSubMenuGeometries: (
   (5, $gray, 2deg)
 );
 
+// Menu button position (to fix overflow)
+.header-inner .toggle {
+  margin-right: 1rem;
+}
+
 // Show menu button
 .toggle-inner {
   position: relative;

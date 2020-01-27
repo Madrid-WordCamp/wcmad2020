@@ -150,6 +150,7 @@ body.home {
     margin: $l 0;
     color: $white !important;
 
+    // TODO: mejorar esto con un array
     &:nth-child(1) {
       background: $blue;
       clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -171,6 +172,7 @@ body.home {
       clip-path: polygon(1.59% 6.74%, 93.62% 10%, 96% 95%, 13px 97%);
     }
 
+    // Only shows excerpt on first post
     &:not(:nth-child(1)) {
       .wp-block-latest-posts__post-excerpt {
         display: none;
