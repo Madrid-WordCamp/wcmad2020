@@ -728,7 +728,7 @@ footer#site-footer .footer-credits {
 .footer-widgets .widget:nth-child(3) .widget-content img {
   display: inline-block;
   margin-top: 3rem;
-  max-width: 40rem;
+  max-width: 40rem !important;
 }
 
 footer#site-footer a,
