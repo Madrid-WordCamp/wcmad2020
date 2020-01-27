@@ -55,12 +55,17 @@ footer#site-footer {
     img {
       display: inline-block;
       margin-top: $xxl;
+      max-width: 40rem;
     }
   }
 }
 
 footer#site-footer {
-  color: $white;
+  a,
+  p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
 
 .footer-widgets.column-one.grid-item {
@@ -75,8 +80,5 @@ aside.footer-widgets-outer-wrapper {
 }
 .footer-widgets-wrapper {
   overflow-x: hidden;
-  max-width: calc(100vw + 4rem);
   padding-top: 3rem;
-
-  margin-left: -6rem !important;
 }
