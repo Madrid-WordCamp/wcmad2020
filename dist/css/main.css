@@ -661,6 +661,10 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   color: #37414b;
 }
 
+.header-footer-group table caption, body:not(.overlay-header) .header-inner .toggle-wrapper::before {
+  background: transparent;
+}
+
 .footer-inner.section-inner {
   margin: 0;
   width: 100vw;

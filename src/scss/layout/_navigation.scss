@@ -350,3 +350,8 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .header-footer-group .color-accent-hover:hover {
   color: $primaryTextColor;
 }
+
+// Border line
+.header-footer-group table caption, body:not(.overlay-header) .header-inner .toggle-wrapper::before {
+  background: transparent;
+}
