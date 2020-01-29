@@ -29,6 +29,12 @@ a.custom-logo-link {
   position: relative;
   padding: $l;
 
+  @include medium-breakpoint {
+    img {
+      max-height: 7rem;
+    }
+  }
+
   &:before {
     @include fullPseudo;
     background: $purple;
