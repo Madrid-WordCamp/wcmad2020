@@ -158,8 +158,8 @@ a {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
-  background: #5666a2;
-  padding: 4rem;
+  background: #803978;
+  padding: 4rem 6rem;
   color: #fff;
   -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
           clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
