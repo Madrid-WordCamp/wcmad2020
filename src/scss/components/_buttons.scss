@@ -2,6 +2,6 @@
 input[type="submit"], 
 .pushbutton-wide {
   text-transform: initial;
-  background: $purple;
+  background: $purple !important;
   clip-path: polygon(0 0, 100% 5%, 94% 98%, 5% 95%);
 }
