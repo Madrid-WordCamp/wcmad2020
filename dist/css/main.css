@@ -153,6 +153,18 @@ a {
   font-weight: 600;
 }
 
+.page-template-default.page .type-page .entry-header .entry-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background: #5666a2;
+  padding: 4rem;
+  color: #fff;
+  -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+          clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+}
+
 .entry-content p,
 .entry-content ol,
 .entry-content ul,
@@ -349,23 +361,14 @@ a.custom-logo-link img {
   padding: 2rem;
   width: 25rem;
   margin-right: -5rem;
-  margin-top: -1rem;
+  margin-top: -3rem;
 }
 
-.primary-menu li.menu-item-has-children > ul:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #803978;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-  z-index: -2;
+.primary-menu li.menu-item-has-children > ul li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .primary-menu li.menu-item-has-children > ul li:before {
@@ -379,6 +382,7 @@ a.custom-logo-link img {
   width: 100%;
   height: 100%;
   z-index: -1;
+  border: 2px solid #fff;
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(1):before {
@@ -420,7 +424,7 @@ a.custom-logo-link img {
 }
 
 .toggle-inner path {
-  fill: #37414b;
+  fill: #37414b !important;
 }
 
 .toggle-inner:after {
@@ -764,7 +768,8 @@ aside.footer-widgets-outer-wrapper {
 }
 
 .wp-block-button__link,
-input[type="submit"] {
+input[type="submit"],
+.pushbutton-wide {
   text-transform: initial;
   background: #803978;
   -webkit-clip-path: polygon(0 0, 100% 5%, 94% 98%, 5% 95%);
@@ -1475,10 +1480,18 @@ body.home .entry-header {
           clip-path: polygon(2% 4%, 98% 1%, 98% 99%, 1% 99%);
 }
 
+.post-template-default .pagination-single .previous-post .arrow {
+  margin-left: 2rem;
+}
+
 .post-template-default .pagination-single .next-post {
   background: #dd7b4c;
   -webkit-clip-path: polygon(1% 2%, 98% 4%, 97% 99%, 3% 98%);
           clip-path: polygon(1% 2%, 98% 4%, 97% 99%, 3% 98%);
+}
+
+.post-template-default .pagination-single .next-post .arrow {
+  margin-right: 2rem;
 }
 
 .post-template-default .pagination-single .previous-post,
