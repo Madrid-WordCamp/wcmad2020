@@ -5,5 +5,5 @@ input[type="submit"],
   text-transform: initial;
   background: $purple !important;
   clip-path: polygon(0 0, 100% 5%, 94% 98%, 5% 95%);
-  color: $white;
+  color: $white !important;
 }
