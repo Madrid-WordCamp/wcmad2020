@@ -20,6 +20,10 @@
     font-weight: 500;
     color: $purple;
 
+    a {
+      color: inherit;
+    }
+
     @include medium-breakpoint {
       font-size: 3rem;
     }
