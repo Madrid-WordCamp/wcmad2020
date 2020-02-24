@@ -265,8 +265,11 @@ a.custom-logo-link img {
   text-align: center;
 }
 
-.primary-menu > li:nth-child(4) a,
-.primary-menu > li:nth-child(1) a {
+.primary-menu > li:nth-child(4) a, .primary-menu > li:nth-child(1) a {
+  color: #fff !important;
+}
+
+.primary-menu > li:nth-child(4) .icon, .primary-menu > li:nth-child(1) .icon {
   color: #fff !important;
 }
 
@@ -1246,6 +1249,10 @@ body.home .entry-header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: -webkit-clip-path .2s ease-in-out;
+  transition: -webkit-clip-path .2s ease-in-out;
+  transition: clip-path .2s ease-in-out;
+  transition: clip-path .2s ease-in-out, -webkit-clip-path .2s ease-in-out;
 }
 
 .calls div:after {
@@ -1317,6 +1324,11 @@ body.home .entry-header {
           clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
 }
 
+.calls .calls-sponsors a:hover:after {
+  -webkit-clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
+          clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
+}
+
 .calls .calls-sponsors img {
   margin-top: 3rem;
 }
@@ -1332,6 +1344,11 @@ body.home .entry-header {
           clip-path: polygon(7.91% 11.73%, 77.19% 12.85%, 89.97% 71.69%, 16px 85.9%);
 }
 
+.calls .calls-speakers a:hover:after {
+  -webkit-clip-path: polygon(5.91% 4.73%, 70.19% 15.85%, 69.97% 80.69%, 10px 90.9%);
+          clip-path: polygon(5.91% 4.73%, 70.19% 15.85%, 69.97% 80.69%, 10px 90.9%);
+}
+
 .calls .calls-volunteers:after {
   background: #91c081;
   -webkit-clip-path: polygon(11.49% 14.38%, 81.77% 15.32%, 88.17% 79.55%, 30px 84.15%);
@@ -1341,6 +1358,11 @@ body.home .entry-header {
 .calls .calls-volunteers a:after {
   -webkit-clip-path: polygon(7.91% 12.52%, 92.82% 15.21%, 76.14% 70.9%, 19px 92.19%);
           clip-path: polygon(7.91% 12.52%, 92.82% 15.21%, 76.14% 70.9%, 19px 92.19%);
+}
+
+.calls .calls-volunteers a:hover:after {
+  -webkit-clip-path: polygon(17.91% 21.73%, 70.19% 17.85%, 80.97% 81.69%, 20px 80.9%);
+          clip-path: polygon(17.91% 21.73%, 70.19% 17.85%, 80.97% 81.69%, 20px 80.9%);
 }
 
 .calls .calls-volunteers img {

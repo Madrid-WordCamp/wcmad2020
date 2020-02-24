@@ -83,9 +83,15 @@ $menuGeometries: (
   text-align: center;
 
   // Because blue and purple background
-  &:nth-child(4) a,
-  &:nth-child(1) a {
-    color: $white !important;
+  &:nth-child(4),
+  &:nth-child(1) {
+    a {
+      color: $white !important;
+    }
+
+    .icon {
+      color: $white !important;
+    }
   }
 
   &.menu-item-has-children {

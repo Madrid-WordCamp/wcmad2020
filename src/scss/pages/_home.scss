@@ -48,6 +48,7 @@ body.home {
     margin: $xl auto;
     padding: $xxl $xl;
     width: fit-content;
+    transition: clip-path .2s ease-in-out;
 
     &:after {
       @include fullPseudo;
@@ -102,6 +103,10 @@ body.home {
       clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
     }
 
+    a:hover:after {
+      clip-path: polygon(3.99% 16.45%,79.42% 3.41%,84.96% 87.1%,6px 89.06%);
+    }
+
     img {
       margin-top: 3rem;
     }
@@ -119,6 +124,15 @@ body.home {
         77.19% 12.85%,
         89.97% 71.69%,
         16px 85.9%
+      );
+    }
+
+    a:hover:after {
+      clip-path: polygon(
+        5.91% 4.73%,
+        70.19% 15.85%,
+        69.97% 80.69%,
+        10px 90.9%
       );
     }
   }
@@ -140,6 +154,15 @@ body.home {
         92.82% 15.21%,
         76.14% 70.9%,
         19px 92.19%
+      );
+    }
+
+    a:hover:after {
+      clip-path: polygon(
+        17.91% 21.73%,
+        70.19% 17.85%,
+        80.97% 81.69%,
+        20px 80.9%
       );
     }
 
