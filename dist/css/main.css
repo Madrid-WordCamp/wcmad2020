@@ -1271,10 +1271,6 @@ body.home .entry-header {
   z-index: -1;
   width: 110%;
   height: 110%;
-  -webkit-transition: -webkit-clip-path .2s ease-in-out;
-  transition: -webkit-clip-path .2s ease-in-out;
-  transition: clip-path .2s ease-in-out;
-  transition: clip-path .2s ease-in-out, -webkit-clip-path .2s ease-in-out;
 }
 
 .calls div img {
@@ -1314,6 +1310,10 @@ body.home .entry-header {
   z-index: -1;
   width: 110%;
   height: 110%;
+  -webkit-transition: -webkit-clip-path .2s ease-in-out;
+  transition: -webkit-clip-path .2s ease-in-out;
+  transition: clip-path .2s ease-in-out;
+  transition: clip-path .2s ease-in-out, -webkit-clip-path .2s ease-in-out;
 }
 
 .calls div a:hover {
