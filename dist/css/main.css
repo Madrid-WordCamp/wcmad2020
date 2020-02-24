@@ -874,43 +874,14 @@ input[type="submit"],
   box-sizing: border-box;
 }
 
-.sponsors .sponsor.diamond {
-  border-color: #d1d2d4;
-}
-
-.sponsors .sponsor.diamond p:before {
-  background: #d1d2d4;
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
-}
-
-.sponsors .sponsor.diamond a {
-  -webkit-box-flex: 0;
-          flex: 0 0 calc(90% - 2rem);
-}
-
-@media (min-width: 700px) {
-  .sponsors .sponsor.diamond a {
-    -webkit-box-flex: 0;
-            flex: 0 0 calc(50% - 2rem);
-  }
-}
-
-@media (min-width: 1000px) {
-  .sponsors .sponsor.diamond a {
-    -webkit-box-flex: 0;
-            flex: 0 0 calc(33% - 2rem);
-  }
-}
-
 .sponsors .sponsor.platinum {
-  border-color: #a8cbcd;
+  border-color: #803978;
 }
 
 .sponsors .sponsor.platinum p:before {
-  background: #a8cbcd;
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  background: #803978;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 
 .sponsors .sponsor.platinum a {
@@ -921,25 +892,25 @@ input[type="submit"],
 @media (min-width: 700px) {
   .sponsors .sponsor.platinum a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(33% - 2rem);
+            flex: 0 0 calc(50% - 2rem);
   }
 }
 
 @media (min-width: 1000px) {
   .sponsors .sponsor.platinum a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(25% - 2rem);
+            flex: 0 0 calc(33% - 2rem);
   }
 }
 
 .sponsors .sponsor.gold {
-  border-color: #c0b32e;
+  border-color: #f5e548;
 }
 
 .sponsors .sponsor.gold p:before {
-  background: #c0b32e;
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  background: #f5e548;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .sponsors .sponsor.gold a {
@@ -950,29 +921,25 @@ input[type="submit"],
 @media (min-width: 700px) {
   .sponsors .sponsor.gold a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(30% - 2rem);
+            flex: 0 0 calc(33% - 2rem);
   }
 }
 
 @media (min-width: 1000px) {
   .sponsors .sponsor.gold a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(23% - 2rem);
+            flex: 0 0 calc(25% - 2rem);
   }
 }
 
 .sponsors .sponsor.silver {
-  border-color: #949699;
-}
-
-.sponsors .sponsor.silver p {
-  color: #fff;
+  border-color: #5666a2;
 }
 
 .sponsors .sponsor.silver p:before {
-  background: #949699;
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  background: #5666a2;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
 }
 
 .sponsors .sponsor.silver a {
@@ -983,19 +950,19 @@ input[type="submit"],
 @media (min-width: 700px) {
   .sponsors .sponsor.silver a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(40% - 2rem);
+            flex: 0 0 calc(30% - 2rem);
   }
 }
 
 @media (min-width: 1000px) {
   .sponsors .sponsor.silver a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(20% - 2rem);
+            flex: 0 0 calc(23% - 2rem);
   }
 }
 
 .sponsors .sponsor.bronze {
-  border-color: #987561;
+  border-color: #dd7b4c;
 }
 
 .sponsors .sponsor.bronze p {
@@ -1003,9 +970,9 @@ input[type="submit"],
 }
 
 .sponsors .sponsor.bronze p:before {
-  background: #987561;
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  background: #dd7b4c;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .sponsors .sponsor.bronze a {
@@ -1016,12 +983,45 @@ input[type="submit"],
 @media (min-width: 700px) {
   .sponsors .sponsor.bronze a {
     -webkit-box-flex: 0;
-            flex: 0 0 calc(38% - 2rem);
+            flex: 0 0 calc(40% - 2rem);
   }
 }
 
 @media (min-width: 1000px) {
   .sponsors .sponsor.bronze a {
+    -webkit-box-flex: 0;
+            flex: 0 0 calc(20% - 2rem);
+  }
+}
+
+.sponsors .sponsor.contributor {
+  border-color: #91c081;
+}
+
+.sponsors .sponsor.contributor p {
+  color: #fff;
+}
+
+.sponsors .sponsor.contributor p:before {
+  background: #91c081;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.sponsors .sponsor.contributor a {
+  -webkit-box-flex: 0;
+          flex: 0 0 calc(90% - 2rem);
+}
+
+@media (min-width: 700px) {
+  .sponsors .sponsor.contributor a {
+    -webkit-box-flex: 0;
+            flex: 0 0 calc(38% - 2rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  .sponsors .sponsor.contributor a {
     -webkit-box-flex: 0;
             flex: 0 0 calc(18% - 2rem);
   }

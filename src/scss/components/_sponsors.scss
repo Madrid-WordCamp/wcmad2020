@@ -64,11 +64,11 @@
       }
     }
 
-    &.diamond {
-      border-color: $diamond;
+    &.platinum {
+      border-color: $platinum;
 
       p:before {
-        @include rotatedGeometry($diamond, 1deg);
+        @include rotatedGeometry($platinum, 1deg);
       }
 
       a {
@@ -84,11 +84,11 @@
       }
     }
 
-    &.platinum {
-      border-color: $platinum;
+    &.gold {
+      border-color: $gold;
 
       p:before {
-        @include rotatedGeometry($platinum, -1deg);
+        @include rotatedGeometry($gold, -1deg);
       }
 
       a {
@@ -104,11 +104,11 @@
       }
     }
 
-    &.gold {
-      border-color: $gold;
+    &.silver {
+      border-color: $silver;
 
       p:before {
-        @include rotatedGeometry($gold, 2deg);
+        @include rotatedGeometry($silver, 2deg);
       }
 
       a {
@@ -124,15 +124,15 @@
       }
     }
 
-    &.silver {
-      border-color: $silver;
+    &.bronze {
+      border-color: $bronze;
 
       p {
         color: $white;
       }
 
       p:before {
-        @include rotatedGeometry($silver, -1deg);
+        @include rotatedGeometry($bronze, -1deg);
       }
 
       a {
@@ -148,15 +148,15 @@
       }
     }
 
-    &.bronze {
-      border-color: $bronze;
+    &.contributor {
+      border-color: $contributor;
 
       p {
         color: $white;
       }
 
       p:before {
-        @include rotatedGeometry($bronze, -3deg);
+        @include rotatedGeometry($contributor, -3deg);
       }
 
       a {
