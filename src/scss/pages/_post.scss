@@ -1,6 +1,6 @@
 .post-template-default, .wcb_sponsor-template-default {
   // THUMBNAIL
-  &.has-post-thumbnail {
+  &.post-template-default.has-post-thumbnail {
     .featured-media {
       position: absolute;
       top: 0;

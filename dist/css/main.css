@@ -1517,21 +1517,21 @@ body.home .entry-header {
   }
 }
 
-.post-template-default.has-post-thumbnail .featured-media, .wcb_sponsor-template-default.has-post-thumbnail .featured-media {
+.post-template-default.post-template-default.has-post-thumbnail .featured-media, .wcb_sponsor-template-default.post-template-default.has-post-thumbnail .featured-media {
   position: absolute;
   top: 0;
   z-index: -1;
   width: 100vw;
 }
 
-.post-template-default.has-post-thumbnail .featured-media .featured-media-inner, .wcb_sponsor-template-default.has-post-thumbnail .featured-media .featured-media-inner {
+.post-template-default.post-template-default.has-post-thumbnail .featured-media .featured-media-inner, .wcb_sponsor-template-default.post-template-default.has-post-thumbnail .featured-media .featured-media-inner {
   margin: 0 auto;
   left: 0;
   width: 100vw;
   max-width: 100vw;
 }
 
-.post-template-default.has-post-thumbnail .featured-media img, .wcb_sponsor-template-default.has-post-thumbnail .featured-media img {
+.post-template-default.post-template-default.has-post-thumbnail .featured-media img, .wcb_sponsor-template-default.post-template-default.has-post-thumbnail .featured-media img {
   max-height: 60vh;
   -o-object-fit: cover;
      object-fit: cover;
