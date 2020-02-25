@@ -1697,6 +1697,383 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #d24941;
 }
 
+.wordcamp-organizers .wordcamp-organizer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "image" "title" "content";
+}
+
+.wordcamp-organizers .wordcamp-organizer .wordcamp-organizers__title {
+  margin-left: 0;
+  position: relative;
+}
+
+.wordcamp-organizers .wordcamp-organizer .wordcamp-image__avatar-container {
+  grid-area: image;
+  position: relative;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(1) .wordcamp-organizers__title:before {
+  background: #dd7b4c;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(1) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #dd7b4c;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(2) .wordcamp-organizers__title:before {
+  background: #81c0b7;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(2) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #81c0b7;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(3) .wordcamp-organizers__title:before {
+  background: #cb589d;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(3) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #cb589d;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(4) .wordcamp-organizers__title:before {
+  background: #5666a2;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(4) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #5666a2;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(5) .wordcamp-organizers__title:before {
+  background: #91c081;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(5) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #91c081;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(6) .wordcamp-organizers__title:before {
+  background: #dd7b4c;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(6) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #dd7b4c;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(7) .wordcamp-organizers__title:before {
+  background: #81c0b7;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(7) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #81c0b7;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(8) .wordcamp-organizers__title:before {
+  background: #cb589d;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(8) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #cb589d;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(9) .wordcamp-organizers__title:before {
+  background: #5666a2;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(9) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #5666a2;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(10) .wordcamp-organizers__title:before {
+  background: #91c081;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(10) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #91c081;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(11) .wordcamp-organizers__title:before {
+  background: #dd7b4c;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(11) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #dd7b4c;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(12) .wordcamp-organizers__title:before {
+  background: #81c0b7;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(12) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #81c0b7;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(13) .wordcamp-organizers__title:before {
+  background: #cb589d;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(13) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #cb589d;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(14) .wordcamp-organizers__title:before {
+  background: #5666a2;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(14) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #5666a2;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(15) .wordcamp-organizers__title:before {
+  background: #91c081;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.wordcamp-organizers .wordcamp-post-list__post:nth-child(15) .wordcamp-image__avatar-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #91c081;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  width: 90%;
+  left: 5%;
+}
+
 /*
 
 ( ͡° ͜ʖ ͡°)

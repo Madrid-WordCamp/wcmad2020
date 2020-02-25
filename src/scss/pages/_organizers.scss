@@ -1,0 +1,56 @@
+.wordcamp-organizers {
+  .wordcamp-organizer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "image"
+      "title"
+      "content";
+
+    .wordcamp-organizers__title {
+      margin-left: 0;
+      position: relative;
+    }
+
+    .wordcamp-image__avatar-container {
+      grid-area: image;
+      position: relative;
+    }
+  }
+
+  $organizersGeometries: (
+    (1, $orange, 2deg),
+    (2, $turquoise, -1deg),
+    (3, $pink, 1deg),
+    (4, $blue, -2deg),
+    (5, $green, 1deg),
+    (6, $orange, 2deg),
+    (7, $turquoise, -1deg),
+    (8, $pink, 1deg),
+    (9, $blue, -2deg),
+    (10, $green, 1deg),
+    (11, $orange, 2deg),
+    (12, $turquoise, -1deg),
+    (13, $pink, 1deg),
+    (14, $blue, -2deg),
+    (15, $green, 1deg)
+  );
+
+  @each $index, $color, $rotation in $organizersGeometries {
+    .wordcamp-post-list__post:nth-child(#{$index}) {
+      .wordcamp-organizers__title:before {
+        @include rotatedGeometry($color, $rotation);
+      }
+
+      .wordcamp-image__avatar-container:after {
+        @include fullPseudo;
+        z-index: -1;
+        background: $color;
+        transform: rotate(9deg);
+        width: 90%;
+        left: 5%;
+      }
+    }
+  }
+}
