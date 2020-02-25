@@ -1331,7 +1331,7 @@ body.home .entry-header {
 }
 
 .calls div a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .calls .calls-sponsors:after {
