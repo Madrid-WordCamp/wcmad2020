@@ -3,10 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "image"
-      "title"
-      "content";
+    grid-template-areas: "image" "title" "content";
 
     .wordcamp-organizers__title {
       margin-left: 0;
@@ -40,6 +37,7 @@
   @each $index, $color, $rotation in $organizersGeometries {
     .wordcamp-post-list__post:nth-child(#{$index}) {
       .wordcamp-organizers__title:before {
+        @include fullPseudo;
         @include rotatedGeometry($color, $rotation);
       }
 
@@ -48,8 +46,8 @@
         z-index: -1;
         background: $color;
         transform: rotate(9deg);
-        width: 90%;
-        left: 5%;
+        width: 15rem;
+        left: 0;
       }
     }
   }
