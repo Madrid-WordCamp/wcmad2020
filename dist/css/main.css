@@ -165,6 +165,10 @@ a {
           clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
 }
 
+.primary-menu ul {
+  right: 0 !important;
+}
+
 .entry-content p,
 .entry-content ol,
 .entry-content ul,
