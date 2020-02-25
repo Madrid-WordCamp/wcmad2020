@@ -75,7 +75,7 @@ $menuGeometries: (
   (5, $green, -5deg)
 );
 
-.primary-menu a:hover {
+.primary-menu a, .primary-menu a:hover {
   text-decoration: none !important;
 }
 

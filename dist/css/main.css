@@ -255,7 +255,7 @@ a.custom-logo-link img {
   position: relative;
 }
 
-.primary-menu a:hover {
+.primary-menu a, .primary-menu a:hover {
   text-decoration: none !important;
 }
 
