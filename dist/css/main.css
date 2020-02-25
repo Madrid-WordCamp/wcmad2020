@@ -777,7 +777,8 @@ aside.footer-widgets-outer-wrapper {
 .wp-block-button__link,
 input[type="submit"],
 .pushbutton-wide,
-.accept {
+.accept,
+.read-more-button-wrap {
   text-transform: initial;
   background: #803978 !important;
   -webkit-clip-path: polygon(0 0, 100% 5%, 94% 98%, 5% 95%);

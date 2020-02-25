@@ -1,7 +1,8 @@
 .wp-block-button__link,
 input[type="submit"], 
 .pushbutton-wide,
-.accept {
+.accept, 
+.read-more-button-wrap {
   text-transform: initial;
   background: $purple !important;
   clip-path: polygon(0 0, 100% 5%, 94% 98%, 5% 95%);
