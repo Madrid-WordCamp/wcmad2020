@@ -153,7 +153,7 @@ a {
   font-weight: 600;
 }
 
-.entry-header .entry-title {
+.page-template-default.page .type-page .entry-header .entry-title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
