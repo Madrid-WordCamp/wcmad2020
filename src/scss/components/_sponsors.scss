@@ -91,10 +91,6 @@
     &.gold {
       border-color: $gold;
 
-      p {
-        color: $white;
-      }
-
       p:before {
         @include rotatedGeometry($gold, -1deg);
       }
@@ -114,6 +110,10 @@
 
     &.silver {
       border-color: $silver;
+
+      p {
+        color: $white;
+      }
 
       p:before {
         @include rotatedGeometry($silver, 2deg);
