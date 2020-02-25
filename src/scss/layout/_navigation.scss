@@ -82,6 +82,10 @@ $menuGeometries: (
   margin: 0 auto;
   text-align: center;
 
+  a {
+    color: $white !important;
+  }
+
   // Because blue and purple background
   &:nth-child(4),
   &:nth-child(1) {

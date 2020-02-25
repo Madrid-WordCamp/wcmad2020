@@ -265,6 +265,10 @@ a.custom-logo-link img {
   text-align: center;
 }
 
+.primary-menu > li a {
+  color: #fff !important;
+}
+
 .primary-menu > li:nth-child(4) a, .primary-menu > li:nth-child(1) a {
   color: #fff !important;
 }
