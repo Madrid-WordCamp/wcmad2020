@@ -865,6 +865,8 @@ input[type="submit"],
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
   width: 85%;
   margin: 0 auto;
 }
