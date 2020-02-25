@@ -269,6 +269,10 @@ a.custom-logo-link img {
   color: #fff !important;
 }
 
+.primary-menu > li .icon {
+  color: #fff !important;
+}
+
 .primary-menu > li:nth-child(4) a, .primary-menu > li:nth-child(1) a {
   color: #fff !important;
 }
