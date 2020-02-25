@@ -389,13 +389,13 @@ a.custom-logo-link img {
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(1):before {
-  background: #5666a2;
+  background: #91c081;
   -webkit-transform: rotate(4deg);
           transform: rotate(4deg);
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(2):before {
-  background: #91c081;
+  background: #5666a2;
   -webkit-transform: rotate(-3deg);
           transform: rotate(-3deg);
 }
