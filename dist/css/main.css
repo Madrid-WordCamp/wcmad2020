@@ -2234,7 +2234,9 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   left: 0;
 }
 
-.postid-4 .post-inner + .section-inner {
+.postid-4 .post-inner + .section-inner,
+.postid-5 .post-inner + .section-inner,
+.postid-6 .post-inner + .section-inner {
   display: none;
 }
 
