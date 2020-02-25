@@ -305,7 +305,7 @@ a.custom-logo-link img {
 }
 
 .primary-menu > li:nth-child(1):before {
-  background: #803978;
+  background: #dd7b4c;
   -webkit-transform: rotate(0);
           transform: rotate(0);
 }
@@ -316,7 +316,7 @@ a.custom-logo-link img {
 }
 
 .primary-menu > li:nth-child(2):before {
-  background: #dd7b4c;
+  background: #81c0b7;
   -webkit-transform: rotate(0);
           transform: rotate(0);
 }
@@ -327,7 +327,7 @@ a.custom-logo-link img {
 }
 
 .primary-menu > li:nth-child(3):before {
-  background: #f5e548;
+  background: #cb589d;
   -webkit-transform: rotate(0);
           transform: rotate(0);
 }
@@ -389,31 +389,31 @@ a.custom-logo-link img {
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(1):before {
-  background: #37414b;
+  background: #5666a2;
   -webkit-transform: rotate(4deg);
           transform: rotate(4deg);
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(2):before {
-  background: #5666a2;
+  background: #91c081;
   -webkit-transform: rotate(-3deg);
           transform: rotate(-3deg);
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(3):before {
-  background: #91c081;
+  background: #cb589d;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(4):before {
-  background: #cb589d;
+  background: #dd7b4c;
   -webkit-transform: rotate(-5deg);
           transform: rotate(-5deg);
 }
 
 .primary-menu li.menu-item-has-children > ul li:nth-child(5):before {
-  background: #dd7b4c;
+  background: #37414b;
   -webkit-transform: rotate(-3deg);
           transform: rotate(-3deg);
 }

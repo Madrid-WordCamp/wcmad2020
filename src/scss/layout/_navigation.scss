@@ -68,9 +68,9 @@ a.custom-logo-link {
 
 // Primary meny ===============================================================
 $menuGeometries: (
-  (1, $purple, -3deg),
-  (2, $orange, 3deg),
-  (3, $yellow, -4deg),
+  (1, $orange, -3deg),
+  (2, $turquoise, 3deg),
+  (3, $pink, -4deg),
   (4, $blue, 2deg),
   (5, $green, -5deg)
 );
@@ -130,11 +130,11 @@ $menuGeometries: (
 
 // Sub menu ====================================================================
 $subMenuGeometries: (
-  (1, $gray, 4deg),
-  (2, $blue, -3deg),
-  (3, $green, 2deg),
-  (4, $pink, -5deg),
-  (5, $orange, -3deg)
+  (1, $blue, 4deg),
+  (2, $green, -3deg),
+  (3, $pink, 2deg),
+  (4, $orange, -5deg),
+  (5, $gray, -3deg)
 );
 
 .primary-menu li.menu-item-has-children > ul {
