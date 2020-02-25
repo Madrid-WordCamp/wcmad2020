@@ -255,6 +255,10 @@ a.custom-logo-link img {
   position: relative;
 }
 
+.primary-menu a:hover {
+  text-decoration: none !important;
+}
+
 .primary-menu > li {
   position: relative;
   margin: 0;
@@ -270,14 +274,6 @@ a.custom-logo-link img {
 }
 
 .primary-menu > li .icon {
-  color: #fff !important;
-}
-
-.primary-menu > li:nth-child(4) a, .primary-menu > li:nth-child(1) a {
-  color: #fff !important;
-}
-
-.primary-menu > li:nth-child(4) .icon, .primary-menu > li:nth-child(1) .icon {
   color: #fff !important;
 }
 

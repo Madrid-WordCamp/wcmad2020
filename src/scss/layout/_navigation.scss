@@ -75,6 +75,10 @@ $menuGeometries: (
   (5, $green, -5deg)
 );
 
+.primary-menu a:hover {
+  text-decoration: none !important;
+}
+
 .primary-menu > li {
   position: relative;
   margin: 0;
@@ -88,18 +92,6 @@ $menuGeometries: (
 
   .icon {
     color: $white !important;
-  }
-
-  // Because blue and purple background
-  &:nth-child(4),
-  &:nth-child(1) {
-    a {
-      color: $white !important;
-    }
-
-    .icon {
-      color: $white !important;
-    }
   }
 
   &.menu-item-has-children {
