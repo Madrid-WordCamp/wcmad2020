@@ -1697,21 +1697,31 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #d24941;
 }
 
+.wordcamp-organizers .wordcamp-post-list__post:not(:first-child) {
+  margin-top: 5rem;
+}
+
 .wordcamp-organizers .wordcamp-organizer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "image" "title" "content";
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .wordcamp-organizers .wordcamp-organizer .wordcamp-organizers__title {
   margin-left: 0;
   position: relative;
+  padding: 2rem;
+  color: #fff;
+  margin-top: 2rem;
 }
 
 .wordcamp-organizers .wordcamp-organizer .wordcamp-image__avatar-container {
   grid-area: image;
   position: relative;
+  -webkit-box-ordinal-group: 0;
+          order: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(1) .wordcamp-organizers__title:before {
@@ -1727,6 +1737,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #dd7b4c;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(1) .wordcamp-image__avatar-container:after {
@@ -1760,6 +1771,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #81c0b7;
   -webkit-transform: rotate(-1deg);
           transform: rotate(-1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(2) .wordcamp-image__avatar-container:after {
@@ -1793,6 +1805,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #cb589d;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(3) .wordcamp-image__avatar-container:after {
@@ -1826,6 +1839,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #5666a2;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(4) .wordcamp-image__avatar-container:after {
@@ -1859,6 +1873,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #91c081;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(5) .wordcamp-image__avatar-container:after {
@@ -1892,6 +1907,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #dd7b4c;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(6) .wordcamp-image__avatar-container:after {
@@ -1925,6 +1941,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #81c0b7;
   -webkit-transform: rotate(-1deg);
           transform: rotate(-1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(7) .wordcamp-image__avatar-container:after {
@@ -1958,6 +1975,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #cb589d;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(8) .wordcamp-image__avatar-container:after {
@@ -1991,6 +2009,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #5666a2;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(9) .wordcamp-image__avatar-container:after {
@@ -2024,6 +2043,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #91c081;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(10) .wordcamp-image__avatar-container:after {
@@ -2057,6 +2077,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #dd7b4c;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(11) .wordcamp-image__avatar-container:after {
@@ -2090,6 +2111,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #81c0b7;
   -webkit-transform: rotate(-1deg);
           transform: rotate(-1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(12) .wordcamp-image__avatar-container:after {
@@ -2123,6 +2145,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #cb589d;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(13) .wordcamp-image__avatar-container:after {
@@ -2156,6 +2179,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #5666a2;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(14) .wordcamp-image__avatar-container:after {
@@ -2189,6 +2213,7 @@ body.blog article:nth-of-type(5) .featured-media-inner:after {
   background: #91c081;
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
+  z-index: -1;
 }
 
 .wordcamp-organizers .wordcamp-post-list__post:nth-child(15) .wordcamp-image__avatar-container:after {

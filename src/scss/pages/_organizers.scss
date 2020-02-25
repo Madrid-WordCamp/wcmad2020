@@ -1,18 +1,24 @@
 .wordcamp-organizers {
+  .wordcamp-post-list__post:not(:first-child) {
+    margin-top: 5rem;
+  }
+
   .wordcamp-organizer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "image" "title" "content";
+    display: flex;
+    flex-direction: column;
 
     .wordcamp-organizers__title {
       margin-left: 0;
       position: relative;
+      padding: 2rem;
+      color: $white;
+      margin-top: 2rem;
     }
 
     .wordcamp-image__avatar-container {
       grid-area: image;
       position: relative;
+      order: -1;
     }
   }
 
@@ -39,6 +45,7 @@
       .wordcamp-organizers__title:before {
         @include fullPseudo;
         @include rotatedGeometry($color, $rotation);
+        z-index: -1;
       }
 
       .wordcamp-image__avatar-container:after {
