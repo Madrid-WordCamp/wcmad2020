@@ -38,7 +38,7 @@ a {
 
 
 // Page titles
-.page-template-default.page .type-page .entry-header .entry-title {
+.entry-header .entry-title {
   width: fit-content;
   margin: 0 auto;
   background: $purple;
@@ -47,6 +47,44 @@ a {
   clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
 }
 
+// Page titles by ID
+.page-id-18 .entry-header .entry-title {
+  background: $green;
+}
+
+.page-id-19 .entry-header .entry-title {
+  background: $blue;
+}
+
+.postid-4 .entry-header .entry-title {
+  background: $green;
+}
+
+.page-id-13 .entry-header .entry-title {
+  background: $pink;
+}
+
+.page-id-11 .entry-header .entry-title {
+  background: $green;
+}
+
+.page-id-10 .entry-header .entry-title {
+  background: $blue;
+}
+
+.page-id-12 .entry-header .entry-title {
+  background: $blue;
+}
+
+.page-id-14 .entry-header .entry-title {
+  background: $orange;
+}
+
+.page-id-14 .entry-header .entry-title {
+  background: $gray;
+}
+
+// Menu bug
 .primary-menu ul {
   right: -100vw;
 }

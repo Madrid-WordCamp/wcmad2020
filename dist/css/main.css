@@ -153,7 +153,7 @@ a {
   font-weight: 600;
 }
 
-.page-template-default.page .type-page .entry-header .entry-title {
+.entry-header .entry-title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -163,6 +163,42 @@ a {
   color: #fff;
   -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
           clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+}
+
+.page-id-18 .entry-header .entry-title {
+  background: #91c081;
+}
+
+.page-id-19 .entry-header .entry-title {
+  background: #5666a2;
+}
+
+.postid-4 .entry-header .entry-title {
+  background: #91c081;
+}
+
+.page-id-13 .entry-header .entry-title {
+  background: #cb589d;
+}
+
+.page-id-11 .entry-header .entry-title {
+  background: #91c081;
+}
+
+.page-id-10 .entry-header .entry-title {
+  background: #5666a2;
+}
+
+.page-id-12 .entry-header .entry-title {
+  background: #5666a2;
+}
+
+.page-id-14 .entry-header .entry-title {
+  background: #dd7b4c;
+}
+
+.page-id-14 .entry-header .entry-title {
+  background: #37414b;
 }
 
 .primary-menu ul {
