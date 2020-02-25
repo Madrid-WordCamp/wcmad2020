@@ -878,6 +878,10 @@ input[type="submit"],
   border-color: #803978;
 }
 
+.sponsors .sponsor.platinum p {
+  color: #fff;
+}
+
 .sponsors .sponsor.platinum p:before {
   background: #803978;
   -webkit-transform: rotate(1deg);
@@ -905,6 +909,10 @@ input[type="submit"],
 
 .sponsors .sponsor.gold {
   border-color: #f5e548;
+}
+
+.sponsors .sponsor.gold p {
+  color: #fff;
 }
 
 .sponsors .sponsor.gold p:before {
