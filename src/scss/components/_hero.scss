@@ -11,8 +11,8 @@
 
   img {
     display: block;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    max-width: 90%;
+    margin: -2rem auto 2rem;
   }
 
   p {
@@ -57,16 +57,23 @@
   }
 }
 
-$color-list: #f5e548, #81c0b7, #91c081, #cb589d, #5666a2, #d24941;
-$width-list: 11rem, 4rem, 4rem, 8rem, 4rem, 5rem;
-$top-list: 69vh, 20vh, 69vh, 32vh, 42vh, 90vh;
-$left-list: 4vw, 35vw, 83vw, 89vw, 11vw, 65vw;
+$color-list: #f5e548, #81c0b7, #91c081, #cb589d, #5666a2, #d24941, #f5e548,
+  #81c0b7, #91c081, #cb589d, #5666a2, #d24941;
+$width-list: 11rem, 4rem, 4rem, 8rem, 4rem, 5rem, 4rem, 4rem, 8rem, 4rem, 5rem,
+  11rem;
+$top-list: 69vh, 20vh, 69vh, 32vh, 33vh, 90vh, 32vh, 58vh, 46vh, 92vh, 52vh,
+  24vh;
+$left-list: 4vw, 35vw, 83vw, 89vw, 11vw, 65vw, 66vw, 52vw, 22vw, 19vw, 72vw,
+  78vw;
 $clip-path-list: (2% 9%, 95% 3%, 88% 93%, 6% 98%),
+  (2% 2%, 99% 5%, 97% 99%, 3% 99%), (5% 7%, 96% 5%, 97% 99%, 1% 96%),
+  (11% 2%, 89% 10%, 100% 98%, 5% 96%), (6% 3%, 85% 7%, 92% 92%, 5% 99%),
+  (3% 3%, 98% 13%, 93% 100%, 4% 96%), (2% 9%, 95% 3%, 88% 93%, 6% 98%),
   (2% 2%, 99% 5%, 97% 99%, 3% 99%), (5% 7%, 96% 5%, 97% 99%, 1% 96%),
   (11% 2%, 89% 10%, 100% 98%, 5% 96%), (6% 3%, 85% 7%, 92% 92%, 5% 99%),
   (3% 3%, 98% 13%, 93% 100%, 4% 96%);
 
-@for $i from 1 through 6 {
+@for $i from 1 through 12 {
   $a: #{$i * 90};
   $b: #{$i * 90+360};
 
