@@ -177,6 +177,10 @@ a {
   background: #91c081 !important;
 }
 
+.postid-6 .entry-header {
+  background: #cb589d !important;
+}
+
 .page-template-default.page.page-id-13 .entry-header .entry-title {
   background: #cb589d;
 }
@@ -1224,6 +1228,7 @@ input[type="submit"],
 .hero img {
   display: block;
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .hero p {
@@ -1255,6 +1260,80 @@ input[type="submit"],
 
 .hero a:hover {
   text-decoration: underline;
+}
+
+.floating-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.floating-icons span {
+  position: absolute;
+  display: block;
+}
+
+.floating-icons span:nth-child(1) {
+  background: #f5e548;
+  height: 11rem;
+  width: 11rem;
+  top: 69vh;
+  left: 4vw;
+  -webkit-clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
+          clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
+}
+
+.floating-icons span:nth-child(2) {
+  background: #81c0b7;
+  height: 4rem;
+  width: 4rem;
+  top: 20vh;
+  left: 35vw;
+  -webkit-clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
+          clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
+}
+
+.floating-icons span:nth-child(3) {
+  background: #91c081;
+  height: 4rem;
+  width: 4rem;
+  top: 69vh;
+  left: 83vw;
+  -webkit-clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
+          clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
+}
+
+.floating-icons span:nth-child(4) {
+  background: #cb589d;
+  height: 8rem;
+  width: 8rem;
+  top: 32vh;
+  left: 89vw;
+  -webkit-clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
+          clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
+}
+
+.floating-icons span:nth-child(5) {
+  background: #5666a2;
+  height: 4rem;
+  width: 4rem;
+  top: 42vh;
+  left: 11vw;
+  -webkit-clip-path: polygon(6% 3%, 85% 7%, 92% 92%, 5% 99%);
+          clip-path: polygon(6% 3%, 85% 7%, 92% 92%, 5% 99%);
+}
+
+.floating-icons span:nth-child(6) {
+  background: #d24941;
+  height: 5rem;
+  width: 5rem;
+  top: 90vh;
+  left: 65vw;
+  -webkit-clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
+          clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
 }
 
 body.home .entry-header {

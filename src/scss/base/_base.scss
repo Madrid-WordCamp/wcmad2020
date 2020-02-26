@@ -36,7 +36,6 @@ a {
   font-weight: 600;
 }
 
-
 // Page titles
 .page-template-default.page .type-page .entry-header .entry-title {
   width: fit-content;
@@ -58,6 +57,10 @@ a {
 
 .postid-4 .entry-header {
   background: $green !important;
+}
+
+.postid-6 .entry-header {
+  background: $pink !important;
 }
 
 .page-template-default.page.page-id-13 .entry-header .entry-title {
