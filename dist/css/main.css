@@ -1092,6 +1092,26 @@ input[type="submit"],
   }
 }
 
+.bg-platinum {
+  background: #803978 !important;
+}
+
+.bg-gold {
+  background: #f5e548 !important;
+}
+
+.bg-silver {
+  background: #5666a2 !important;
+}
+
+.bg-bronze {
+  background: #dd7b4c !important;
+}
+
+.bg-contributor {
+  background: #91c081 !important;
+}
+
 .footer-widgets .widget:nth-child(1) {
   position: relative;
   z-index: 1;
