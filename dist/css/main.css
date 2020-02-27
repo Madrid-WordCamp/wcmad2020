@@ -214,6 +214,29 @@ a {
   right: -100vw;
 }
 
+.heading-shape {
+  background: #803978;
+  padding: 1.5rem 3rem;
+  color: white;
+  position: relative;
+  left: -3rem;
+}
+
+.path-1 {
+  -webkit-clip-path: polygon(2% 3%, 98% 2%, 99% 99%, 1% 98%);
+          clip-path: polygon(2% 3%, 98% 2%, 99% 99%, 1% 98%);
+}
+
+.path-2 {
+  -webkit-clip-path: polygon(1% 2%, 99% 2%, 98% 99%, 2% 100%);
+          clip-path: polygon(1% 2%, 99% 2%, 98% 99%, 2% 100%);
+}
+
+.path-3 {
+  -webkit-clip-path: polygon(0 0, 97% 3%, 99% 97%, 3% 99%);
+          clip-path: polygon(0 0, 97% 3%, 99% 97%, 3% 99%);
+}
+
 .entry-content p,
 .entry-content ol,
 .entry-content ul,
