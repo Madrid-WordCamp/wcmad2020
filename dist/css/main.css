@@ -237,6 +237,10 @@ a {
           clip-path: polygon(0 0, 97% 3%, 99% 97%, 3% 99%);
 }
 
+.text-dark {
+  color: #37414b;
+}
+
 .entry-content p,
 .entry-content ol,
 .entry-content ul,
