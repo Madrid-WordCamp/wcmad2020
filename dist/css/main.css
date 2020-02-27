@@ -1384,7 +1384,7 @@ input[type="submit"],
   background: #cb589d;
   height: 8rem;
   width: 8rem;
-  top: 32vh;
+  top: 43vh;
   left: 89vw;
   -webkit-clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
           clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
@@ -1462,9 +1462,9 @@ input[type="submit"],
 
 .floating-icons span:nth-child(12) {
   background: #d24941;
-  height: 11rem;
-  width: 11rem;
-  top: 24vh;
+  height: 7rem;
+  width: 7rem;
+  top: 28vh;
   left: 78vw;
   -webkit-clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
           clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
