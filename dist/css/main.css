@@ -1112,6 +1112,26 @@ input[type="submit"],
   background: #91c081 !important;
 }
 
+.btn-platinum a {
+  background: #803978 !important;
+}
+
+.btn-gold a {
+  background: #f5e548 !important;
+}
+
+.btn-silver a {
+  background: #5666a2 !important;
+}
+
+.btn-bronze a {
+  background: #dd7b4c !important;
+}
+
+.btn-contributor a {
+  background: #91c081 !important;
+}
+
 .footer-widgets .widget:nth-child(1) {
   position: relative;
   z-index: 1;
