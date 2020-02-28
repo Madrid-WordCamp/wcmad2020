@@ -71,7 +71,9 @@
   }
 }
 
-.entry-content
+.blog
+  .post-inner
+  .entry-content
   > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
   max-width: 74rem;
 }
