@@ -121,3 +121,11 @@ a {
 .text-dark {
   color: $primaryTextColor;
 }
+
+body.home .entry-content > section, body.home .entry-content > div, body.home .entry-content > ul {
+  max-width: 100rem;
+}
+
+.tix-column-price {
+  width: 10rem;
+}
