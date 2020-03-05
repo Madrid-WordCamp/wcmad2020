@@ -6,42 +6,39 @@
         }
     }
 
+    &, a {
+        color: $white !important;
+    }
+
     li {
         float: none !important;
         width: 100% !important;
+        padding: 2rem 4rem;
+        margin: 0 !important;
+        height: fit-content !important;
     }
 
-    img {
-        position: relative;
-    }
-
-    $organizersGeometries: (
-    (1, $orange, 2deg),
-    (2, $turquoise, -1deg),
-    (3, $blue, -2deg),
-    (4, $purple, 1deg),
-    (5, $green, 1deg),
-    (6, $orange, 2deg),
-    (7, $turquoise, -1deg),
-    (8, $blue, -2deg),
-    (9, $pink, 1deg)
+    $attendeesGeometries: (
+    (1, $orange, (2% 9%, 95% 3%, 88% 93%, 6% 98%)),
+    (2, $turquoise, (2% 2%, 99% 5%, 97% 99%, 3% 99%)),
+    (3, $blue, (5% 7%, 96% 5%, 97% 99%, 1% 96%)),
+    (4, $purple, (11% 2%, 89% 10%, 100% 98%, 5% 96%)),
+    (5, $green, (6% 3%, 85% 7%, 92% 92%, 5% 99%)),
+    (6, $orange, (3% 3%, 98% 13%, 93% 100%, 4% 96%)),
+    (7, $turquoise, (2% 9%, 95% 3%, 88% 93%, 6% 98%)),
+    (8, $blue, (2% 2%, 99% 5%, 97% 99%, 3% 99%)),
+    (9, $pink, (5% 7%, 96% 5%, 97% 99%, 1% 96%))
   );
 
-  @each $index, $color, $rotation in $organizersGeometries {
+  @each $index, $color, $rotation in $attendeesGeometries {
     li:nth-child(#{$index}n) {
-      img:after {
-        @include fullPseudo;
-        z-index: -1;
         background: $color;
-        transform: rotate(9deg);
-        width: 100%;
-        left: 0;
-      }
+        clip-path: polygon($color);
     }
   }
 
   .tix-attendee-name {
-    font-size: 2rem;
+    font-size: 1.8rem !important;
     font-weight: 600;
   }
 
