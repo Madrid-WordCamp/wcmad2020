@@ -1431,56 +1431,56 @@ input[type="submit"],
 
 [id="tix-attendees"] li:nth-child(1n) {
   background: #dd7b4c;
-  -webkit-clip-path: polygon(#dd7b4c);
-          clip-path: polygon(#dd7b4c);
+  -webkit-clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
+          clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
 }
 
 [id="tix-attendees"] li:nth-child(2n) {
   background: #81c0b7;
-  -webkit-clip-path: polygon(#81c0b7);
-          clip-path: polygon(#81c0b7);
+  -webkit-clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
+          clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
 }
 
 [id="tix-attendees"] li:nth-child(3n) {
   background: #5666a2;
-  -webkit-clip-path: polygon(#5666a2);
-          clip-path: polygon(#5666a2);
+  -webkit-clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
+          clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
 }
 
 [id="tix-attendees"] li:nth-child(4n) {
   background: #803978;
-  -webkit-clip-path: polygon(#803978);
-          clip-path: polygon(#803978);
+  -webkit-clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
+          clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
 }
 
 [id="tix-attendees"] li:nth-child(5n) {
   background: #91c081;
-  -webkit-clip-path: polygon(#91c081);
-          clip-path: polygon(#91c081);
+  -webkit-clip-path: polygon(6% 3%, 85% 7%, 92% 92%, 5% 99%);
+          clip-path: polygon(6% 3%, 85% 7%, 92% 92%, 5% 99%);
 }
 
 [id="tix-attendees"] li:nth-child(6n) {
   background: #dd7b4c;
-  -webkit-clip-path: polygon(#dd7b4c);
-          clip-path: polygon(#dd7b4c);
+  -webkit-clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
+          clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
 }
 
 [id="tix-attendees"] li:nth-child(7n) {
   background: #81c0b7;
-  -webkit-clip-path: polygon(#81c0b7);
-          clip-path: polygon(#81c0b7);
+  -webkit-clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
+          clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
 }
 
 [id="tix-attendees"] li:nth-child(8n) {
   background: #5666a2;
-  -webkit-clip-path: polygon(#5666a2);
-          clip-path: polygon(#5666a2);
+  -webkit-clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
+          clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
 }
 
 [id="tix-attendees"] li:nth-child(9n) {
   background: #cb589d;
-  -webkit-clip-path: polygon(#cb589d);
-          clip-path: polygon(#cb589d);
+  -webkit-clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
+          clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
 }
 
 [id="tix-attendees"] .tix-attendee-name {
