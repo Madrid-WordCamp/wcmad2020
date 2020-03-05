@@ -1,0 +1,52 @@
+[id="tix-attendees"] {
+    ul {
+        @include medium-breakpoint {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    li {
+        float: none;
+        width: fit-content !important;
+    }
+
+    img {
+        position: relative;
+    }
+
+    $organizersGeometries: (
+    (1, $orange, 2deg),
+    (2, $turquoise, -1deg),
+    (3, $blue, -2deg),
+    (4, $purple, 1deg),
+    (5, $green, 1deg),
+    (6, $orange, 2deg),
+    (7, $turquoise, -1deg),
+    (8, $blue, -2deg),
+    (9, $pink, 1deg)
+  );
+
+  @each $index, $color, $rotation in $organizersGeometries {
+    li:nth-child(#{$index}n) {
+      img:after {
+        @include fullPseudo;
+        z-index: -1;
+        background: $color;
+        transform: rotate(9deg);
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  .tix-attendee-name {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .tix-attendee-twitter {
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
