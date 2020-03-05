@@ -1408,9 +1408,14 @@ input[type="submit"],
           clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
 }
 
+[id="tix-attendees"] ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+}
+
 @media (min-width: 700px) {
   [id="tix-attendees"] ul {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1449,8 +1454,8 @@ input[type="submit"],
 
 [id="tix-attendees"] li:nth-child(4n) {
   background: #803978;
-  -webkit-clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
-          clip-path: polygon(11% 2%, 89% 10%, 100% 98%, 5% 96%);
+  -webkit-clip-path: polygon(7% 2%, 94% 10%, 100% 98%, 5% 96%);
+          clip-path: polygon(7% 2%, 94% 10%, 100% 98%, 5% 96%);
 }
 
 [id="tix-attendees"] li:nth-child(5n) {
@@ -1481,6 +1486,11 @@ input[type="submit"],
   background: #cb589d;
   -webkit-clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
           clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
+}
+
+[id="tix-attendees"] img {
+  width: 5rem !important;
+  height: 5rem !important;
 }
 
 [id="tix-attendees"] .tix-attendee-name {

@@ -1,7 +1,10 @@
 [id="tix-attendees"] {
     ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+
         @include medium-breakpoint {
-            display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
     }
@@ -22,7 +25,7 @@
     (1, $orange, (2% 9%, 95% 3%, 88% 93%, 6% 98%)),
     (2, $turquoise, (2% 2%, 99% 5%, 97% 99%, 3% 99%)),
     (3, $blue, (5% 7%, 96% 5%, 97% 99%, 1% 96%)),
-    (4, $purple, (11% 2%, 89% 10%, 100% 98%, 5% 96%)),
+    (4, $purple, (7% 2%, 94% 10%, 100% 98%, 5% 96%)),
     (5, $green, (6% 3%, 85% 7%, 92% 92%, 5% 99%)),
     (6, $orange, (3% 3%, 98% 13%, 93% 100%, 4% 96%)),
     (7, $turquoise, (2% 9%, 95% 3%, 88% 93%, 6% 98%)),
@@ -35,6 +38,11 @@
         background: $color;
         clip-path: polygon($path);
     }
+  }
+
+  img {
+    width: 5rem !important;
+    height: 5rem !important;
   }
 
   .tix-attendee-name {
