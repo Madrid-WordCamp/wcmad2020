@@ -1465,32 +1465,27 @@ input[type="submit"],
 }
 
 [id="tix-attendees"] li:nth-child(6n) {
-  background: #dd7b4c;
-  -webkit-clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
-          clip-path: polygon(3% 3%, 98% 13%, 93% 100%, 4% 96%);
-}
-
-[id="tix-attendees"] li:nth-child(7n) {
   background: #81c0b7;
   -webkit-clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
           clip-path: polygon(2% 9%, 95% 3%, 88% 93%, 6% 98%);
 }
 
-[id="tix-attendees"] li:nth-child(8n) {
+[id="tix-attendees"] li:nth-child(7n) {
   background: #5666a2;
   -webkit-clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
           clip-path: polygon(2% 2%, 99% 5%, 97% 99%, 3% 99%);
 }
 
-[id="tix-attendees"] li:nth-child(9n) {
+[id="tix-attendees"] li:nth-child(8n) {
   background: #cb589d;
   -webkit-clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
           clip-path: polygon(5% 7%, 96% 5%, 97% 99%, 1% 96%);
 }
 
 [id="tix-attendees"] img {
-  width: 6.5rem !important;
-  height: 6.5rem !important;
+  width: 6rem !important;
+  height: 6rem !important;
+  margin-right: 1.5rem;
 }
 
 [id="tix-attendees"] .tix-attendee-name {
