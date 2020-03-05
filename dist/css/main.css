@@ -1416,10 +1416,8 @@ input[type="submit"],
 }
 
 [id="tix-attendees"] li {
-  float: none;
-  width: -webkit-fit-content !important;
-  width: -moz-fit-content !important;
-  width: fit-content !important;
+  float: none !important;
+  width: 100% !important;
 }
 
 [id="tix-attendees"] img {
