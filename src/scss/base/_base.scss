@@ -45,51 +45,129 @@ a {
 .page-template-default.page .type-page .entry-header .entry-title {
   width: fit-content;
   margin: 0 auto;
-  background: $purple;
   padding: 4rem 6rem;
   color: $white;
-  clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  position: relative;
+  &:before {
+    @include rotatedGeometry($purple, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $purple;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 // Page titles by ID
 .page-template-default.page.page-id-18 .entry-header .entry-title {
-  background: $green;
+  &:before {
+    @include rotatedGeometry($green, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $green;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-19 .entry-header .entry-title {
-  background: $blue;
+  &:before {
+    @include rotatedGeometry($blue, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $blue;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .postid-4 .entry-header {
-  background: $green !important;
+  &:before {
+    @include rotatedGeometry($green, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $green !important;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
+  
 }
 
 .postid-6 .entry-header {
-  background: $pink !important;
+  &:before {
+    @include rotatedGeometry($pink, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $pink !important;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-13 .entry-header .entry-title {
-  background: $pink;
+  &:before {
+    @include rotatedGeometry($pink, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $pink !important;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-11 .entry-header .entry-title {
-  background: $green;
+  &:before {
+    @include rotatedGeometry($green, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $green !important;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-10 .entry-header .entry-title {
-  background: $blue;
+  &:before {
+    @include rotatedGeometry($blue, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $blue;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-12 .entry-header .entry-title {
-  background: $pink;
+  &:before {
+    @include rotatedGeometry($pink, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $pink;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-14 .entry-header .entry-title {
-  background: $orange;
+  &:before {
+    @include rotatedGeometry($orange, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $orange;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 .page-template-default.page.page-id-17 .entry-header .entry-title {
-  background: $gray;
+  &:before {
+    @include rotatedGeometry($gray, 2deg);
+  }
+
+  @include support-clip-path {
+    background: $gray;
+    clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
+  }
 }
 
 // Menu bug

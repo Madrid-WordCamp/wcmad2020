@@ -25,6 +25,12 @@
   }
 }
 
+@mixin support-clip-path {
+  @supports(-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) {
+    @content;
+  }
+}
+
 // Use with :before and :after
 @mixin pseudo($display: block, $pos: absolute, $content: "") {
   content: $content;
