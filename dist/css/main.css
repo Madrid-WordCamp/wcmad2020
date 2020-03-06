@@ -170,7 +170,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page .type-page .entry-header .entry-title {
     background: #803978;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -183,7 +183,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-18 .entry-header .entry-title {
     background: #91c081;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -196,7 +196,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-19 .entry-header .entry-title {
     background: #5666a2;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -209,7 +209,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .postid-4 .entry-header {
     background: #91c081 !important;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -222,7 +222,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .postid-6 .entry-header {
     background: #cb589d !important;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -235,7 +235,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-13 .entry-header .entry-title {
     background: #cb589d !important;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -248,7 +248,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-11 .entry-header .entry-title {
     background: #91c081 !important;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -261,7 +261,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-10 .entry-header .entry-title {
     background: #5666a2;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -274,7 +274,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-12 .entry-header .entry-title {
     background: #cb589d;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -287,7 +287,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-14 .entry-header .entry-title {
     background: #dd7b4c;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -300,7 +300,7 @@ a {
   transform: rotate(2deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .page-template-default.page.page-id-17 .entry-header .entry-title {
     background: #37414b;
     -webkit-clip-path: polygon(1.07% 1.13%, 96.72% 3.92%, 96% 92.19%, 0px 97%);
@@ -1705,9 +1705,7 @@ body.home .entry-header {
   z-index: -1;
   width: 110%;
   height: 110%;
-  transition: -webkit-clip-path .2s ease-in-out;
-  transition: clip-path .2s ease-in-out;
-  transition: clip-path .2s ease-in-out, -webkit-clip-path .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .calls div a:hover {
@@ -1723,7 +1721,7 @@ body.home .entry-header {
   top: 5%;
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-sponsors:after {
     transform: none;
     width: 110%;
@@ -1739,7 +1737,7 @@ body.home .entry-header {
   transform: rotate(-10deg) skew(-12deg, 9deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-sponsors a:after {
     transform: none;
     -webkit-clip-path: polygon(3.99% 16.45%, 79.42% 3.41%, 84.96% 87.1%, 6px 89.06%);
@@ -1751,7 +1749,7 @@ body.home .entry-header {
   transform: rotate(-8deg) skew(-14deg, 7deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-sponsors a:hover:after {
     transform: none;
     -webkit-clip-path: polygon(13.61% 7.8%, 66.8% 3.41%, 76.24% 83.95%, 7px 98.5%);
@@ -1772,7 +1770,7 @@ body.home .entry-header {
   transform: rotate(3deg) skew(1deg, -1deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-speakers:after {
     transform: none;
     width: 110%;
@@ -1788,7 +1786,7 @@ body.home .entry-header {
   transform: rotate(7deg) skew(1deg, -8deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-speakers a:after {
     transform: none;
     -webkit-clip-path: polygon(7.91% 11.73%, 77.19% 12.85%, 89.97% 71.69%, 16px 85.9%);
@@ -1800,7 +1798,7 @@ body.home .entry-header {
   transform: rotate(8deg) skew(2deg, -6deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-speakers a:hover:after {
     transform: none;
     -webkit-clip-path: polygon(8.92% 4.73%, 91.23% 19%, 94.02% 88.55%, 36px 92.47%);
@@ -1817,7 +1815,7 @@ body.home .entry-header {
   transform: rotate(-4deg) skew(-7deg, 9deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-volunteers:after {
     transform: none;
     width: 110%;
@@ -1833,7 +1831,7 @@ body.home .entry-header {
   transform: rotate(-6deg) skew(1deg, 5deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-volunteers a:after {
     transform: none;
     -webkit-clip-path: polygon(7.91% 12.52%, 92.82% 15.21%, 76.14% 70.9%, 19px 92.19%);
@@ -1845,7 +1843,7 @@ body.home .entry-header {
   transform: rotate(-5deg) skew(2deg, 4deg);
 }
 
-@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%))) {
+@supports ((-webkit-clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px)) or (clip-path: polygon(0 0, 100px 0, 100px 75px, 0 100px))) {
   .calls .calls-volunteers a:hover:after {
     transform: none;
     -webkit-clip-path: polygon(10.69% 2.07%, 77.41% 9.99%, 77.36% 91.13%, 40px 91.12%);
