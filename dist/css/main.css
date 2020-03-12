@@ -1930,7 +1930,6 @@ body.home .entry-header {
 
 @media (min-width: 700px) {
   .wp-block-latest-posts {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
   .wp-block-latest-posts li:nth-child(1) {
